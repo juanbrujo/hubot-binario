@@ -1,11 +1,8 @@
 {
   "name": "hubot-binario",
-  "version": "0.0.1",
-  "description": "Hubot script que transforma un script a binario",
+  "version": "0.0.2",
+  "description": "Hubot script que transforma una palabra a binario",
   "main": "binario.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juanbrujo/hubot-binario.git"
