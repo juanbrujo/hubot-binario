@@ -1,6 +1,6 @@
 # Hubot Binario
 
-**Hubot script que transforma un string a binario**
+**Hubot script que transforma una palabra a binario**
 
 ### Instalación:
 
