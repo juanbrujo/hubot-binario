@@ -1,7 +1,7 @@
 {
   "name": "hubot-binario",
-  "version": "0.0.2",
-  "description": "Hubot script que transforma una palabra a binario",
+  "version": "0.1.0",
+  "description": "Hubot script que transforma texto a binario",
   "main": "binario.js",
   "repository": {
     "type": "git",

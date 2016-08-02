@@ -1,5 +1,5 @@
 // Description:
-//   Hubot script que transforma una palabra a binario
+//   Hubot script que transforma texto a binario
 //
 // Dependencies:
 //   None
@@ -8,7 +8,7 @@
 //   None
 //
 // Commands:
-//   en binario <palabra> (máx. 60 caracteres)
+//   en binario <texto> (máx. 60 caracteres)
 //
 // Author:
 //   @jorgeepunan
@@ -29,12 +29,13 @@ function toBin(str){
 
 module.exports = function(robot) {
 
-  robot.respond(/en binario (\w+)/i, function(res) {
+  robot.respond(/en binario (.*)/i, function(res) {
     var texto = res.match[1].trim(),
         largo = 60,
         cortado = texto.substring(0, largo);
         binario = toBin(cortado);
-    msg = cortado + " en binario: *" + binario + "*";
+
+    msg = "_" + cortado + "_ en binario: " + binario;
 
     res.send(msg);
   });
